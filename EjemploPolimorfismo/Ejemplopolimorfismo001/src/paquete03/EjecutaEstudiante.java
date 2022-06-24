@@ -32,7 +32,7 @@ public class EjecutaEstudiante {
             // Se imprime mensaje en pantalla para solicitar
             // el tipo de estudiante que se desea ingresar
             System.out.println("Tipo de Estudiante a ingresar\n"
-                    + "Ingrese (1) para Estudiante Presencial"
+                    + "Ingrese (1) para Estudiante Presencial\n"
                     + "Ingrese (2) para Estudiante Distancia");
             // se captura el valor ingresado por el usuario en 
             // la variable tipoEstudiante
@@ -75,7 +75,7 @@ public class EjecutaEstudiante {
                 // abtracto <calcularMatricula> para obtener 
                 // el costo de la Matricula Presencial para el objeto tipo 
                 // EstudiantePresencial
-                estudianteP.calcularMatricula();
+                //estudianteP.calcularMatricula();
 
                 // se hace uso de los métodos obtener del objeto para presentar
                 // los valores que se necesite en pantalla
